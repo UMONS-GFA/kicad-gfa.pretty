@@ -1,4 +1,4 @@
-(module microsd_socket locked (layer F.Cu) (tedit 5696676E)
+(module microSD_socket locked (layer F.Cu) (tedit 5696676E)
   (descr microsd_socket)
   (fp_text reference CON1 (at -0.36576 9.45896) (layer F.SilkS)
     (effects (font (size 1.016 0.762) (thickness 0.127)))
@@ -707,4 +707,9 @@
     (solder_mask_margin 0.1016) (clearance 0.254))
   (pad 9 smd rect (at 4.43992 7.25424) (size 1.5 1.15) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.1016) (clearance 0.254))
+  (model /home/su530201/KiCad_Projects/kicad-gfa.pretty/packages3d/microsd_card.wrl
+    (at (xyz -0.02 -0.00127 0.0254))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 0 0 0))
+  )
 )
